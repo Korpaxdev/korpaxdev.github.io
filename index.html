@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Korpaxdev портфолио</title>
+		<link rel="stylesheet" href="css/style.min.css?_v=20220520162857" />
+	</head>
+	<body>
+		<header class="header" data-anim="fadeInTop">
+	<div class="container">
+		<div class="header__wrapper">
+			<a
+				href="https://github.com/Korpaxdev"
+				class="header__logo logo"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<img src="img/logotype.svg" alt="Korpaxdev" />
+			</a>
+			<nav class="header__nav">
+				<ul class="header__menu menu">
+					<li class="menu__item header__menu-item">
+						<a
+							href="#skills"
+							data-navigate
+							class="menu__link header__menu-link"
+						>
+							Мои навыки
+						</a>
+					</li>
+					<li class="menu__item header__menu-item">
+						<a href="#works" data-navigate class="menu__link header__menu-link">
+							Мои работы
+						</a>
+					</li>
+					<li class="menu__item header__menu-item">
+						<a
+							href="#contacts"
+							data-navigate
+							class="menu__link header__menu-link"
+						>
+							Мои контакты
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="header__burger burger-menu">
+				<span></span><span></span><span></span>
+			</button>
+		</div>
+	</div>
+</header>
+
+		<main>
+			<section class="promo">
+	<div class="container">
+		<div class="promo__wrapper">
+			<div class="promo__utp" data-anim="fadeInLeft">
+				<h1 class="promo__title">
+					Привет <br />
+					меня зовут <span>Алексей</span>
+				</h1>
+				<p class="promo__description">Я начинающий FRONTEND разработчик.</p>
+				<div class="promo__buttons">
+					<a href="#contacts" data-navigate class="promo__contacts"
+						>Связаться со мной
+						<img src="img/icons/promo-contact-icon.svg" alt="Иконка контактов"
+					/></a>
+					<a href="#works" class="promo__works">Мои работы</a>
+				</div>
+			</div>
+			<div class="promo__img" data-anim="fadeInRight">
+				<img src="img/promo.svg" alt="Frontend разработка" />
+			</div>
+		</div>
+		<div class="promo__bg">
+			<div class="gradient-purple promo__gradient-left"></div>
+			<div class="gradient-orange promo__gradient-right"></div>
+		</div>
+	</div>
+</section>
+ <section class="skills" id="skills">
+	<div class="container">
+		<h2 class="skills__title title"><span>Мои навыки</span></h2>
+		<div class="skills__body">
+			<!--      Main skills      -->
+			<div class="skills__main">
+				<ul class="skills__list" data-anim="fadeInLeft">
+					<li class="skills__item">
+						<div class="skills__icon">
+							<img src="img/skills/html.svg" alt="HTML" />
+						</div>
+						<h3 class="skills__item-title">HTML</h3>
+						<p class="skills__item-description">
+							Создание и разметка Web страницы
+						</p>
+					</li>
+					<li class="skills__item">
+						<div class="skills__icon">
+							<img src="img/skills/css.svg" alt="CSS" />
+						</div>
+						<h3 class="skills__item-title">CSS</h3>
+						<p class="skills__item-description">Стилизация Web страницы</p>
+					</li>
+					<li class="skills__item">
+						<div class="skills__icon">
+							<img src="img/skills/js.svg" alt="JavaScript" />
+						</div>
+						<h3 class="skills__item-title">JavaScript</h3>
+						<p class="skills__item-description">
+							Создание логики и “оживление” Web страницы
+						</p>
+					</li>
+				</ul>
+			</div>
+			<!--      Add skills      -->
+			<div class="skills__add">
+				<h3 class="skills__subtitle">Дополнительные навыки</h3>
+				<ul class="skills__list" data-anim="fadeInRight">
+					<li class="skills__item">
+						<div class="skills__icon">
+							<img src="img/skills/react.svg" alt="React" />
+						</div>
+						<h3 class="skills__item-title">React</h3>
+						<p class="skills__item-description">Библиотека для создание SPA</p>
+					</li>
+					<li class="skills__item">
+						<div class="skills__icon">
+							<img src="img/skills/scss.svg" alt="SCSS" />
+						</div>
+						<h3 class="skills__item-title">SCSS</h3>
+						<p class="skills__item-description">
+							Препроцессор для CSS. Упрощает создание стилей
+						</p>
+					</li>
+					<li class="skills__item">
+						<div class="skills__icon">
+							<img src="img/skills/ts.svg" alt="TypeScript" />
+						</div>
+						<h3 class="skills__item-title">TypeScript</h3>
+						<p class="skills__item-description">
+							Строго типизированный язык программирования, основнанный на
+							JavaScript.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="gradient-bg-even">
+		<div class="gradient-purple gradient-bg-even__top"></div>
+		<div class="gradient-orange gradient-bg-even__middle"></div>
+		<div class="gradient-purple gradient-bg-even__bottom"></div>
+	</div>
+</section>
+
+			<section class="works" id="works">
+	<div class="container">
+		<h2 class="works__title title"><span>Мои работы</span></h2>
+		<div class="works__slider swiper" data-anim="fadeInLeft">
+			<div class="swiper-wrapper">
+				<a
+					class="works__slide swiper-slide"
+					href="https://игровыеприставки.рф/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<div class="works__slide-img">
+						<picture>
+							<source srcset="img/works/game-consoles.webp" type="image/webp" />
+							<img
+								src="img/works/game-consoles.png"
+								alt="Игровые приставки.рф"
+							/>
+						</picture>
+					</div>
+					<h3 class="works__slide-title">Игровые приставки.рф</h3>
+				</a>
+				<a
+					class="works__slide swiper-slide"
+					href="https://lame-nail.ru"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<div class="works__slide-img">
+						<picture>
+							<source srcset="img/works/lame-nail.webp" type="image/webp" />
+							<img src="img/works/lame-nail.png" alt="Lame Nail" />
+						</picture>
+					</div>
+					<h3 class="works__slide-title">Lame Nail</h3>
+				</a>
+				<a
+					class="works__slide swiper-slide works__slide_react"
+					href="https://marvel-react-app-c38fa.web.app/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<div class="works__slide-img">
+						<picture>
+							<source srcset="img/works/marvel-portal.webp" type="image/webp" />
+							<img src="img/works/marvel-portal.png" alt="Marvel React App" />
+						</picture>
+					</div>
+					<h3 class="works__slide-title">Marvel React App</h3>
+				</a>
+			</div>
+			<div class="works__slider-pagination"></div>
+		</div>
+	</div>
+	<div class="gradient-bg-odd">
+		<div class="gradient-bg-odd__top gradient-purple"></div>
+		<div class="gradient-bg-odd__middle gradient-orange"></div>
+		<div class="gradient-bg-odd__bottom gradient-purple"></div>
+	</div>
+</section>
+ <section class="contacts" id="contacts">
+	<div class="container">
+		<h2 class="contacts__title title"><span>Мои контакты</span></h2>
+		<div class="contacts__body">
+			<div class="contacts__img" data-anim="fadeInLeft">
+				<img src="img/contacts.svg" alt="Мои контакты" />
+			</div>
+			<ul class="contacts__list" data-anim="fadeInRight">
+				<li class="contacts__item">
+					<h3 class="contacts__subtitle">Email:</h3>
+					<a href="mailto:korpaxdev@gmail.com" class="contacts__link"
+						>korpaxdev@gmail.com</a
+					>
+				</li>
+				<li class="contacts__item">
+					<h3 class="contacts__subtitle">Социальные сети:</h3>
+					<div class="contacts__social-links">
+						<a
+							href="https://vk.com/korpaxdev"
+							class="contacts__social-link"
+							target="_blank"
+							rel="noreferrer"
+							><img src="img/icons/vk.svg" alt="Вконтакте"
+						/></a>
+						<a
+							href="https://t.me/korpaxdev"
+							class="contacts__social-link"
+							target="_blank"
+							rel="noreferrer"
+							><img src="img/icons/telegram.svg" alt="Telegram"
+						/></a>
+					</div>
+				</li>
+				<li class="contacts__item">
+					<h3 class="contacts__subtitle">Github:</h3>
+					<a
+						href="https://github.com/Korpaxdev"
+						class="contacts__social-link"
+						target="_blank"
+						rel="noreferrer"
+						><img src="img/icons/github.svg" alt="Github"
+					/></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="gradient-bg-even">
+		<div class="gradient-purple gradient-bg-even__top"></div>
+		<div class="gradient-orange gradient-bg-even__middle"></div>
+		<div class="gradient-purple gradient-bg-even__bottom"></div>
+	</div>
+</section>
+
+			<footer class="footer" data-anim="fadeInBottom">
+	<div class="container">
+		<div class="footer__wrapper">
+			<a
+				class="footer__logo logo"
+				href="https://github.com/Korpaxdev"
+				class="header__logo logo"
+				target="_blank"
+				rel="noreferrer"
+				><img src="img/logotype.svg" alt="Korpaxdev"
+			/></a>
+			<ul class="footer__menu menu">
+				<li class="footer__item menu__item">
+					<a href="#skills" data-navigate class="footer__link menu__link">
+						Мои навыки
+					</a>
+				</li>
+				<li class="footer__item menu__item">
+					<a href="#works" data-navigate class="footer__link menu__link">
+						Мои работы
+					</a>
+				</li>
+				<li class="footer__item menu__item">
+					<a href="#contacts" data-navigate class="footer__link menu__link">
+						Мои контакты
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+		</main>
+		<script src="js/main.min.js?_v=20220520162857"></script>
+	</body>
+</html>
